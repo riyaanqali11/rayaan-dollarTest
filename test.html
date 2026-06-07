@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Report</title>
+
+    <style>
+        body{
+            font-family:Arial;
+        }
+
+        table{
+            width:90%;
+            margin:auto;
+            border-collapse:collapse;
+            text-align:center;
+        }
+
+        thead{
+            background:#007bff;
+            color:white;
+        }
+
+        th,td{
+            padding:12px;
+            border:1px solid #ddd;
+        }
+
+        tbody tr:hover{
+            background:lightblue;
+        }
+
+        .edit{
+            background:green;
+            color:white;
+            border:none;
+            padding:8px 15px;
+            border-radius:5px;
+        }
+
+        .delete{
+            background:red;
+            color:white;
+            border:none;
+            padding:8px 15px;
+            border-radius:5px;
+        }
+
+        .edit:hover{
+            background:darkgreen;
+        }
+
+        .delete:hover{
+            background:darkred;
+        }
+    </style>
+
+</head>
+<body>
+
+<h2 align="center">Student Marks Report</h2>
+
+<table>
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>MATH</th>
+            <th>ENGLISH</th>
+            <th>SCIENCE</th>
+            <th colspan="2">BUTTON</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>C1240001</td>
+            <td>Ahmed Ali</td>
+            <td>85</td>
+            <td>90</td>
+            <td>78</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>C1240002</td>
+            <td>Layla Noor</td>
+            <td>92</td>
+            <td>88</td>
+            <td>95</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>C1240003</td>
+            <td>Sami Yusuf</td>
+            <td>76</td>
+            <td>81</td>
+            <td>89</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>C1240004</td>
+            <td>Ahmed Yusuf</td>
+            <td>76</td>
+            <td>81</td>
+            <td>89</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>C1240005</td>
+            <td>Hassan Omar</td>
+            <td>88</td>
+            <td>79</td>
+            <td>91</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>C1240006</td>
+            <td>Amina Hassan</td>
+            <td>94</td>
+            <td>85</td>
+            <td>90</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td>C1240007</td>
+            <td>Mohamed Nur</td>
+            <td>80</td>
+            <td>87</td>
+            <td>84</td>
+            <td><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
